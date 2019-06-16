@@ -144,27 +144,7 @@ p {
       width: 800px;
   }
 
-  /* classes for images and text on portfolio.html below */
 
-.container {
-    position: relative;
-   /* text-align: center;*/
-    float: left;
-  }
-
-  .container2 {
-    clear: both;
-    position: relative;
-    float: left;
-  }
-
-  .container3 {
-    clear: both;
-    position: relative;
-    text-align: center;
-    float: left;
-    margin: 0 0 10% 0;
-  }
 
   .floatText{
     clear: left;
@@ -176,7 +156,7 @@ p {
     padding: 15px 0px;
     width: 250px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    float: left
+    float: left;
   }
 
   input[type=submit]{
@@ -206,30 +186,37 @@ p {
 /*media*/
 
 /* Small view*/
-@media (min-width: 500px) { 
+@media (min-width: 400px) { 
   section {
     max-width: 400px;
     margin-top: 12%;
     }
-
+    .textBoxStandard{
+      width: 300px;
+    }
  }
 
 /* Medium view */
-@media (min-width: 700px) { 
+@media (min-width: 840px) { 
     section {
       max-width: 650px;
       margin-top: 9%;
-      background-color: #4aaaa5;
+    }
+    .textBoxStandard{
+      width: 500px;
     }
  }
 
 
 /* Large view */
-@media (min-width: 950px) { 
+@media (min-width: 960px) { 
     section {
       max-width: 960px;
       margin-top: 7%;
       background-color: #ffffff;
+    }
+    .textBoxStandard{
+      width: 800px;
     }
 }
 

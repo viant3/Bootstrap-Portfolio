@@ -141,10 +141,8 @@ p {
 
   .textBoxStandard {
       height: 20px;
-      width: 800px;
+      width: 100%;
   }
-
-
 
   .floatText{
     clear: left;
@@ -170,11 +168,6 @@ p {
     height: 40px;
 }
 
-.hideScroll{
-  overflow-x: hidden;
-}
-
-
 /* bootstrap over-rides */
 
 .navbar {
@@ -188,7 +181,16 @@ p {
 @media (max-width: 640px) {
   section.mainBox {
     max-width: 400px;
-    margin-top: 13%;
+    margin-top: 30%;
     margin-bottom: 20%;
+  }
+  img.imgSize {
+    display: block;
+    padding: 0 0 4% 0;
+    margin: 0 auto;
+  }
+  h2 {
+    display: block;
+    margin: 0 auto;
   }
 }

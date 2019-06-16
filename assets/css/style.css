@@ -94,8 +94,8 @@ p {
 .mainBox {
     max-width: 960px;
     margin: 0 auto;
+    margin-top: 7%;
     color: #777777;
-    overflow-x: hidden; 
   }
 
 .centerPage {
@@ -185,40 +185,10 @@ p {
 
 /*media*/
 
-/* Small view*/
-@media (min-width: 400px) { 
-  section {
+@media (max-width: 640px) {
+  section.mainBox {
     max-width: 400px;
-    margin-top: 12%;
-    }
-    .textBoxStandard{
-      width: 300px;
-    }
- }
-
-/* Medium view */
-@media (min-width: 840px) { 
-    section {
-      max-width: 650px;
-      margin-top: 9%;
-    }
-    .textBoxStandard{
-      width: 500px;
-    }
- }
-
-
-/* Large view */
-@media (min-width: 960px) { 
-    section {
-      max-width: 960px;
-      margin-top: 7%;
-      background-color: #ffffff;
-    }
-    .textBoxStandard{
-      width: 800px;
-    }
+    margin-top: 13%;
+    margin-bottom: 20%;
+  }
 }
-
-
-

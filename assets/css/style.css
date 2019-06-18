@@ -182,6 +182,10 @@ p {
     padding: 0 0 4% 0;
     margin: 0 auto;
   }
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
   h2 {
     display: block;
     margin: 0 auto;
